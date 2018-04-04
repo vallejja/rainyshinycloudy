@@ -21,6 +21,8 @@ class WeatherVC: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("develop branch test changes as per GitWorkflow")
+        print("feature-trace-1-0 changes")
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
