@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC8BD7FF2075941E002F8453 /* release-1.0.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AC8BD7FE2075941E002F8453 /* release-1.0.rtf */; };
 		ACF0A9C52013FE6A00F18A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0A9C42013FE6A00F18A37 /* AppDelegate.swift */; };
 		ACF0A9C72013FE6A00F18A37 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF0A9C62013FE6A00F18A37 /* WeatherVC.swift */; };
 		ACF0A9CA2013FE6A00F18A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF0A9C82013FE6A00F18A37 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		9259C7F606A5C6908FDEA109 /* Pods-rainyshinycloudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rainyshinycloudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rainyshinycloudy/Pods-rainyshinycloudy.debug.xcconfig"; sourceTree = "<group>"; };
 		A9F72D8F3579C334860EED50 /* Pods-rainyshinycloudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rainyshinycloudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-rainyshinycloudy/Pods-rainyshinycloudy.release.xcconfig"; sourceTree = "<group>"; };
+		AC8BD7FE2075941E002F8453 /* release-1.0.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "release-1.0.rtf"; sourceTree = "<group>"; };
 		ACF0A9C12013FE6A00F18A37 /* rainyshinycloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainyshinycloudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF0A9C42013FE6A00F18A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF0A9C62013FE6A00F18A37 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 			children = (
 				ACF0A9CD2013FE6A00F18A37 /* LaunchScreen.storyboard */,
 				ACF0A9C42013FE6A00F18A37 /* AppDelegate.swift */,
-				ACF0A9D02013FE6A00F18A37 /* Info.plist */,
+				AC8BD7FE2075941E002F8453 /* release-1.0.rtf */,
 			);
 			path = features;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 				ACC3D67B20182F7600E38FD1 /* Model */,
 				ACF0A9C82013FE6A00F18A37 /* Main.storyboard */,
 				ACF0A9CB2013FE6A00F18A37 /* Assets.xcassets */,
+				ACF0A9D02013FE6A00F18A37 /* Info.plist */,
 				AC8BD7FD20759179002F8453 /* features */,
 			);
 			path = rainyshinycloudy;
@@ -184,6 +187,7 @@
 			files = (
 				ACF0A9CF2013FE6A00F18A37 /* LaunchScreen.storyboard in Resources */,
 				ACF0A9CC2013FE6A00F18A37 /* Assets.xcassets in Resources */,
+				AC8BD7FF2075941E002F8453 /* release-1.0.rtf in Resources */,
 				ACF0A9CA2013FE6A00F18A37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
