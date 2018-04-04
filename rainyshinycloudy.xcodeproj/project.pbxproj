@@ -48,6 +48,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AC8BD7FD20759179002F8453 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				ACF0A9CD2013FE6A00F18A37 /* LaunchScreen.storyboard */,
+				ACF0A9C42013FE6A00F18A37 /* AppDelegate.swift */,
+				ACF0A9D02013FE6A00F18A37 /* Info.plist */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
 		ACC3D67B20182F7600E38FD1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,11 +104,9 @@
 				ACC3D67D20182F8700E38FD1 /* Controller */,
 				ACC3D67C20182F7E00E38FD1 /* View */,
 				ACC3D67B20182F7600E38FD1 /* Model */,
-				ACF0A9C42013FE6A00F18A37 /* AppDelegate.swift */,
 				ACF0A9C82013FE6A00F18A37 /* Main.storyboard */,
 				ACF0A9CB2013FE6A00F18A37 /* Assets.xcassets */,
-				ACF0A9CD2013FE6A00F18A37 /* LaunchScreen.storyboard */,
-				ACF0A9D02013FE6A00F18A37 /* Info.plist */,
+				AC8BD7FD20759179002F8453 /* features */,
 			);
 			path = rainyshinycloudy;
 			sourceTree = "<group>";
