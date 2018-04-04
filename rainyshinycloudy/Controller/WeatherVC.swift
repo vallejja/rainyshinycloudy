@@ -23,6 +23,7 @@ class WeatherVC: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view, typically from a nib.
         print("develop branch test changes as per GitWorkflow")
         print("feature-trace-1-0 changes")
+        print("3. git commit -a -m \"Bumped (Initial version number to 1.0)\"")
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
