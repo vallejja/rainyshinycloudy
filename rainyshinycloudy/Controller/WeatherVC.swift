@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class WeatherVC: UIViewController, UITableViewDataSource {
+class WeatherVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var dateLbl: UILabel!
     @IBOutlet weak var currentTempLbl: UILabel!
@@ -18,9 +18,17 @@ class WeatherVC: UIViewController, UITableViewDataSource {
     @IBOutlet weak var locationLbl: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        //print("\(CURRENT_WEATHER_URL)")
+        print(CURRENT_WEATHER_URL)
+        
         print("develop branch test changes as per GitWorkflow")
         print("feature-trace-1-0 changes")
         print("3. git commit -a -m \"Bumped (Initial version number to 1.0)\"")
@@ -35,7 +43,9 @@ class WeatherVC: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.cellForRow(at: indexPath)!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
+        return cell
+        //return tableView.cellForRow(at: indexPath)!
     }
     
 }
